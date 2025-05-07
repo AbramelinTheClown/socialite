@@ -1,0 +1,13 @@
+services:
+  astrology:
+    build:
+      context: ./planets
+      dockerfile: Dockerfile
+    volumes:
+      - ./planets/planet-alignments:/output
+    environment:
+      - OBSERVER_LAT=18.5392
+      - OBSERVER_LON=-72.3363
+
+volumes:
+  planet-alignments:

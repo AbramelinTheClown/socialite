@@ -1,0 +1,10 @@
+# Core dependencies
+jinja2==3.1.2
+playwright==1.42.0
+numpy==1.26.4
+skyfield==1.46
+coqui-tts==0.0.15
+
+# Animation pipeline specific
+greenlet==3.0.3
+pyee==11.0.1

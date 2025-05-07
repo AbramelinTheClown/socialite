@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tts"
+version = "0.1.0"
+description = "Text-to-speech processing system"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coqui-tts = "^0.11.1"
+soundfile = "^0.12.1"
+pydantic = "^2.7"
+loguru = "^0.7"
+
+[build-system]
+requires = ["poetry-core>=1.8.2"]
+build-backend = "poetry.core.masonry.api"

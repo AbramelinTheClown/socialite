@@ -1,0 +1,48 @@
+2025-05-06 07:34:10,210 - INFO - Calculated planetary positions, signs, retrograde status, and aspects
+2025-05-06 07:34:10,210 - ERROR - Critical error: too many values to unpack (expected 3)
+2025-05-06 07:38:58,627 - INFO - Calculated planetary positions, signs, retrograde status, and aspects
+2025-05-06 07:38:58,628 - ERROR - Critical error: too many values to unpack (expected 3)
+2025-05-06 07:39:51,847 - INFO - Calculated planetary positions, signs, retrograde status, and aspects
+2025-05-06 07:39:51,847 - ERROR - Critical error: too many values to unpack (expected 3)
+2025-05-06 07:42:04,443 - INFO - Calculated planetary positions, signs, retrograde status, and aspects
+2025-05-06 07:42:04,444 - ERROR - Critical error: too many values to unpack (expected 3)
+2025-05-06 11:45:08,133 - INFO - Cleared all files in ./planet-alignments
+2025-05-06 11:45:08,133 - INFO - Generating planetary data for 2025-05-06
+2025-05-06 11:45:08,526 - ERROR - Error calculating positions: cannot download https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/planets/de421.bsp because HTTP Error 404: Not Found
+2025-05-06 11:45:08,527 - ERROR - Failed to calculate positions: cannot download https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/planets/de421.bsp because HTTP Error 404: Not Found
+2025-05-06 11:45:08,527 - CRITICAL - Critical error in main execution: cannot download https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/planets/de421.bsp because HTTP Error 404: Not Found
+2025-05-06 11:57:23,631 - INFO - Created/verified input directory: D:\AI\horoscope_gen\planet-alignments
+2025-05-06 11:57:23,631 - INFO - Created/verified output directory: D:\AI\horoscope_gen\horoscopes
+2025-05-06 11:57:23,632 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Aquarius.json
+2025-05-06 11:57:23,632 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Aries.json
+2025-05-06 11:57:23,632 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Cancer.json
+2025-05-06 11:57:23,632 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Capricorn.json
+2025-05-06 11:57:23,633 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Gemini.json
+2025-05-06 11:57:23,633 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Leo.json
+2025-05-06 11:57:23,633 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Libra.json
+2025-05-06 11:57:23,633 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Pisces.json
+2025-05-06 11:57:23,634 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Sagittarius.json
+2025-05-06 11:57:23,635 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Scorpio.json
+2025-05-06 11:57:23,635 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Taurus.json
+2025-05-06 11:57:23,635 - INFO - Deleted file: D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-04-20_17-45-31_Virgo.json
+2025-05-06 11:57:23,635 - INFO - Cleared all files in D:\AI\horoscope_gen\planet-alignments
+2025-05-06 11:57:23,635 - INFO - Deleted file: D:\AI\horoscope_gen\horoscopes\horoscope_Aquarius_2025-04-20.txt
+2025-05-06 11:57:23,635 - INFO - Cleared all files in D:\AI\horoscope_gen\horoscopes
+2025-05-06 11:57:23,647 - INFO - Calculated planetary positions, signs, retrograde status, and aspects
+2025-05-06 11:57:23,648 - INFO - Saved planet positions for Aries to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Aries.json
+2025-05-06 11:57:23,649 - INFO - Saved planet positions for Taurus to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Taurus.json
+2025-05-06 11:57:23,650 - INFO - Saved planet positions for Gemini to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Gemini.json
+2025-05-06 11:57:23,651 - INFO - Saved planet positions for Cancer to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Cancer.json
+2025-05-06 11:57:23,652 - INFO - Saved planet positions for Leo to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Leo.json
+2025-05-06 11:57:23,653 - INFO - Saved planet positions for Virgo to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Virgo.json
+2025-05-06 11:57:23,653 - INFO - Saved planet positions for Libra to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Libra.json
+2025-05-06 11:57:23,654 - INFO - Saved planet positions for Scorpio to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Scorpio.json
+2025-05-06 11:57:23,655 - INFO - Saved planet positions for Sagittarius to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Sagittarius.json
+2025-05-06 11:57:23,655 - INFO - Saved planet positions for Capricorn to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Capricorn.json
+2025-05-06 11:57:23,656 - INFO - Saved planet positions for Aquarius to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Aquarius.json
+2025-05-06 11:57:23,664 - INFO - Saved planet positions for Pisces to D:\AI\horoscope_gen\planet-alignments\planet_positions_2025-05-06_15-57-23_Pisces.json
+2025-05-06 13:29:14,526 - INFO - Cleared all files in ./planet-alignments
+2025-05-06 13:29:14,597 - INFO - Generating planetary data for 2025-05-06
+2025-05-06 13:29:15,028 - ERROR - Error calculating positions: cannot download https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/planets/de421.bsp because HTTP Error 404: Not Found
+2025-05-06 13:29:15,028 - ERROR - Failed to calculate positions: cannot download https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/planets/de421.bsp because HTTP Error 404: Not Found
+2025-05-06 13:29:15,028 - CRITICAL - Critical error in main execution: cannot download https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/planets/de421.bsp because HTTP Error 404: Not Found

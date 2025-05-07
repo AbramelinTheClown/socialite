@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.env
+.venv/
+
+# Docker
+**/docker-data/
+**/build/
+**/.dockerignore
+
+# Astronomy Data
+**/planet-alignments/*.json
+!**/planet-alignments/*_test.json
+
+# Ai Mmodel repos
+**/audio/dia
+**/audio/dia-1.6B
+# IDE
+.vscode/
+.idea/
+
+**/agents/
+**/venv/
+
+# Local overrides
+override.yml

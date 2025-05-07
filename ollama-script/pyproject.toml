@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ollama-script"
+version = "0.1.0"
+description = "LLM script generation module"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ollama = "^0.1.2"
+pydantic = "^2.7"
+loguru = "^0.7"
+
+[build-system]
+requires = ["poetry-core>=1.8.2"]
+build-backend = "poetry.core.masonry.api"
