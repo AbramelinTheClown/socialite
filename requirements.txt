@@ -4,7 +4,11 @@ playwright==1.42.0
 numpy==1.26.4
 skyfield==1.46
 coqui-tts==0.0.15
-
+OpenAi
 # Animation pipeline specific
 greenlet==3.0.3
 pyee==11.0.1
+google-api-python-client==2.70.0
+python-dotenv
+ollama
+psycopg 

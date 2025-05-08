@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+    background-color: #000; /* Black background outside the stream area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically in the viewport */
+}
+
+#stream-container {
+    width: 1280px; /* Standard HD width */
+    height: 720px; /* Standard HD height (16:9 aspect ratio) */
+    position: relative; /* Important for positioning the canvas */
+    overflow: hidden; /* Hide anything from the canvas outside this container */
+    /* You can add a border or background to this container for framing */
+}
+
+#giant-canvas {
+    position: absolute; /* Position relative to #stream-container */
+    width: 1280px; /* Start with canvas size matching the container */
+    height: 720px;
+    top: 0;
+    left: 0;
+    /* This size will be adjusted by JavaScript for panning, but starts matching the viewport */
+}
+
+/* --- Asset Positioning and Layering --- */
+/* Use position: absolute for all layered assets within the canvas */
+/* Use z-index to control stacking order (higher value = on top) */
+
+#background-asset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make background fill the canvas/viewport initially */
+    height: 100%;
+    z-index: 1; /* Lowest layer */
+}
+
+#lumina, #nebbles {
+    position: absolute;
+    z-index: 10; /* Characters are generally above backgrounds and below front stage */
+    /* Set initial position for characters on the canvas */
+    top: 100px; /* Example positioning */
+    left: 500px; /* Example positioning */
+    width: auto; /* Or define specific sizes */
+    height: auto;
+}
+
+#nebbles {
+    top: 200px; /* Example positioning */
+    left: 800px; /* Example positioning */
+}
+
+/* Style individual character parts */
+.character-part {
+    position: absolute; /* Position relative to their character container (#lumina, #nebbles) */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make parts fill their container initially, adjust as needed */
+    height: 100%;
+    /* You'll adjust positioning and sizing with JS/CSS for specific parts */
+}
+
+/* Example layering for Lumina's parts within her container */
+#lumina-body { z-index: 1; }
+#lumina-mouth-neutral, #lumina-mouth-mid, #lumina-mouth-wide { z-index: 2; } /* Mouths are above the body */
+#lumina-blinks { z-index: 3; } /* Blinks are on top of eyes */
+/* You'll need styles for eyes, hair, arms, etc., positioning them relative to the head/body */
+
+
+#front-stage-asset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20; /* Highest layer, in front of characters */
+    pointer-events: none; /* Allows clicking/interacting with elements behind the front stage if needed */
+}
+
+.prop-asset {
+    position: absolute;
+    z-index: 15; /* Props can be layered between characters and front stage */
+    /* Set initial positions and sizes, likely hidden by default (style="display: none;") */
+}
+
+/* --- Animations (Examples) --- */
+/* Add keyframes and animation properties for blinking, talking, etc. as discussed before */
+
+/* --- Classes for Expressions (Examples) --- */
+/* .lumina-happy .character-part { ... styles for happy expression ... } */
